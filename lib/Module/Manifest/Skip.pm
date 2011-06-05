@@ -9,7 +9,7 @@ package Module::Manifest::Skip;
 use 5.008003;
 use Moo 0.009008;
 
-our $VERSION = '0.10';
+our $VERSION = '0.11';
 
 has text => (
     is => 'ro',
@@ -33,6 +33,7 @@ sub import {
             or die "Can't open MANIFEST.SKIP for output:\n$!";
         print MS $text;
         close MS;
+        exit;
     }
     else {
         goto &Moo::import;
@@ -111,7 +112,7 @@ sub read_file {
 
 From the command line:
 
-    > perl -MModule::Manifest::Skip\ create -e1
+    > perl -MModule::Manifest::Skip=create
 
 From Perl:
 
@@ -158,7 +159,7 @@ in your F<Makefile.PL>, and everything would be taken care of for you.
 If you want to simply create a F<MANIFEST.SKIP> file from the command line,
 this handy syntax exists:
 
-    > perl -MModule::Manifest::Skip\ create -e1
+    > perl -MModule::Manifest::Skip=create
 
 =head1 BEHAVIOR
 

@@ -4,7 +4,7 @@ NAME
 SYNOPSIS
     From the command line:
 
-        > perl -MModule::Manifest::Skip\ create -e1
+        > perl -MModule::Manifest::Skip=create
 
     From Perl:
 
@@ -49,7 +49,7 @@ USAGE
     If you want to simply create a MANIFEST.SKIP file from the command line,
     this handy syntax exists:
 
-        > perl -MModule::Manifest::Skip\ create -e1
+        > perl -MModule::Manifest::Skip=create
 
 BEHAVIOR
     This module ships with a share file called share/MANIFEST.SKIP. This is

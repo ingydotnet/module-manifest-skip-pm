@@ -17,7 +17,7 @@ unlink $file or die;
 sub create {
     chdir $dir or die;
 
-    system("$^X -I$LIB -MModule::Manifest::Skip\\ create -e1") == 0
+    system("$^X -I$LIB -MModule::Manifest::Skip=create") == 0
         or die;
 
     chdir $HOME or die;

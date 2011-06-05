@@ -12,7 +12,7 @@ copy_file($src, $file);
 die unless -e $file;
 chdir $dir or die;
 
-system("$^X -I$lib -MModule::Manifest::Skip\\ create -e1") == 0
+system("$^X -I$lib -MModule::Manifest::Skip=create") == 0
     or die;
 
 chdir $HOME or die;

@@ -1,4 +1,9 @@
 ---
+version: 0.11
+date:    Sun Jun  5 12:36:53 EST 2011
+changes:
+- No longer require -e1 on command line usage.
+---
 version: 0.10
 date:    Sun Jun  5 00:35:36 EST 2011
 changes:
