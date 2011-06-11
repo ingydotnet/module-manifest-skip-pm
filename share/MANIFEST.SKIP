@@ -1,4 +1,3 @@
-
 # Begin standard Module::Manifest::Skip list:
 
 # ExtUtils::MakeMaker
@@ -30,6 +29,9 @@
 \B\.git\b
 \B\.gitignore\b
 \B\.gitmodules\b
+\B\.hg\b
+\B\.hgignore\b
+\B\.hgtags\b
 \bRCS\b
 \bSCCS\b
 \B\.svn\b
