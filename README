@@ -39,8 +39,8 @@ DESCRIPTION
     although this is rarely needed.
 
 USAGE
-    Usually this module is called by wrapping modules. If you want this to
-    be used by Module::Install, then you would put this:
+    Usually this module is called by other packaging modules. If you want
+    this to be used by Module::Install, then you would put this:
 
         manifest_skip 'clean';
 
@@ -66,8 +66,8 @@ BEHAVIOR
         - ^bar/
         - ^baz$
 
-    It will remove each of these lines and any other lines that match the
-    text after the dash/space. This allows you to override the default
+    It will comment out each of these lines and any other lines that match
+    the text (after the '- '). This allows you to override the default
     SKIPs.
 
 AUTHOR

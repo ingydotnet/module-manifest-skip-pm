@@ -7,9 +7,10 @@
 
 package Module::Manifest::Skip;
 use 5.008003;
+
 use Moo 0.009008;
 
-our $VERSION = '0.11';
+our $VERSION = '0.12';
 
 has text => (
     is => 'ro',
@@ -128,8 +129,8 @@ From Perl:
 
 =head1 DESCRIPTION
 
-B<NOTE:> This module is mostly intended for module packaging frameworks to share
-a common, up-to-date C<MANIFEST.SKIP> base. For example,
+B<NOTE:> This module is mostly intended for module packaging frameworks to
+share a common, up-to-date C<MANIFEST.SKIP> base. For example,
 Module::Install::ManifestSkip, uses this module to get the actual SKIP
 content. However this module may be useful for any module author.
 
@@ -149,8 +150,8 @@ needed.
 
 =head1 USAGE
 
-Usually this module is called by wrapping modules. If you want this to be used
-by Module::Install, then you would put this:
+Usually this module is called by other packaging modules. If you want this to
+be used by Module::Install, then you would put this:
 
     manifest_skip 'clean';
 
@@ -169,11 +170,12 @@ existing F<MANIFEST.SKIP> file and take all the text before the first blank
 line, and prepend it to the start of a new SKIP file. This allows you to put
 your own personal section at the top, that will not be overwritten later.
 
-It will then look for lines beginning with a dash followed by a space. Like this:
+It will then look for lines beginning with a dash followed by a space. Like
+this:
 
     - \bfoo\b
     - ^bar/
     - ^baz$
 
-It will remove each of these lines and any other lines that match the text
-after the dash/space. This allows you to override the default SKIPs.
+It will comment out each of these lines and any other lines that match the
+text (after the '- '). This allows you to override the default SKIPs.

@@ -42,6 +42,7 @@
 ^inc/.*\.pod$
 ^pkg/
 ^xt/
+^dist.ini$
 
 # Editors
 ~$
@@ -88,3 +89,5 @@
 \.tdy$
 \.tmp$
 ^\w$
+\.ttc$
+\.pmc$

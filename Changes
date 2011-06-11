@@ -1,4 +1,9 @@
 ---
+version: 0.12
+date:    Sat Jun 11 12:33:55 EST 2011
+changes:
+- add dist.ini and .ttc$ and .pmc$
+---
 version: 0.11
 date:    Sun Jun  5 12:36:53 EST 2011
 changes:
