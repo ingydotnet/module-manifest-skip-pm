@@ -1,4 +1,9 @@
 ---
+version: 0.13
+date:    Sun Jun 12 03:38:24 EST 2011
+changes:
+- csjewell++ added Mercurial files
+---
 version: 0.12
 date:    Sat Jun 11 12:33:55 EST 2011
 changes:

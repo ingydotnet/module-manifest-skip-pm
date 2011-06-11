@@ -5,12 +5,12 @@
 # license:   perl
 # copyright: 2011
 
-package Module::Manifest::Skip;
 use 5.008003;
+package Module::Manifest::Skip;
 
 use Moo 0.009008;
 
-our $VERSION = '0.12';
+our $VERSION = '0.13';
 
 has text => (
     is => 'ro',
