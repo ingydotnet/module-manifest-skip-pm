@@ -1,10 +1,10 @@
 use t::Test;
 use Test::More tests => 1;
-use Test::Differences;
+# use XXX; use Test::Differences; *is = \&eq_or_diff;
 
 use Module::Manifest::Skip;
 
 my $mms = Module::Manifest::Skip->new;
 
-eq_or_diff $mms->text, $TEMPLATE,
+is $mms->text, $TEMPLATE,
     'Default MANIFEST.SKIP text is ok';

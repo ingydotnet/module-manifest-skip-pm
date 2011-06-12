@@ -1,4 +1,9 @@
 ---
+version: 0.14
+date:    Sun Jun 12 12:08:33 EST 2011
+changes:
+- Left debugging code (Test::Differences) in test.
+---
 version: 0.13
 date:    Sun Jun 12 03:38:24 EST 2011
 changes:

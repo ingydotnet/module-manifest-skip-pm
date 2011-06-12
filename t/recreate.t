@@ -1,7 +1,6 @@
 use t::Test;
 use Test::More tests => 4;
-# use Test::Differences;
-# *is = \&eq_or_diff;
+# use XXX; use Test::Differences; *is = \&eq_or_diff;
 
 my $dir = 't/dir3';
 my $file = "$dir/MANIFEST.SKIP";
