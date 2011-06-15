@@ -26,6 +26,9 @@ sub copy_file {
     open OUT, '>', $dest or die "Can't open $dest for output";
     local $/;
     print OUT <IN>;
+    close OUT;
+    close IN;
+    return 1;
 }
 
 1;

@@ -1,4 +1,9 @@
 ---
+version: 0.15
+date:    Wed Jun 15 11:32:27 EST 2011
+changes:
+- Fixed bug in test on Win32. Need to close file before unlink.
+---
 version: 0.14
 date:    Sun Jun 12 12:08:33 EST 2011
 changes:
