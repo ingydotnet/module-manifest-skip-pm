@@ -56,7 +56,7 @@
 ^\.vimrc$
 
 # OS X
-^\.DS_Store$
+\.DS_Store$
 ^\.Trash/
 \B\._
 
