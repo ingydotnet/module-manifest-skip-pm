@@ -1,8 +1,8 @@
 ---
 version: 0.16
-date:    Thu Oct  6 10:15:00 EDT 2011
+date:    Fri Oct  7 21:08:15 EDT 2011
 changes:
-- Altered the match for Mac OSX .DS_Store so we find those more aggressively
+- Altered the match for Mac OSX .DS_Store so we find those more aggressively (jnap++)
 ---
 version: 0.15
 date:    Wed Jun 15 11:32:27 EST 2011
