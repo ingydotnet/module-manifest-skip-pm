@@ -10,7 +10,7 @@ package Module::Manifest::Skip;
 
 use Moo 0.009008;
 
-our $VERSION = '0.15';
+our $VERSION = '0.16';
 
 has text => (
     is => 'ro',
