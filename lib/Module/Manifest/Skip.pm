@@ -8,9 +8,9 @@
 use 5.008003;
 package Module::Manifest::Skip;
 
-use Moo 0.009008;
+use Moo 0.091013;
 
-our $VERSION = '0.16';
+our $VERSION = '0.17';
 
 has text => (
     is => 'ro',

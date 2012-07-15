@@ -75,6 +75,8 @@
 ^.devel-local$
 ^out$
 ^tmon.out$
+^old/
+^Old/
 
 # Author Notes
 ^notes
