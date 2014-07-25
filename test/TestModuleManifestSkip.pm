@@ -23,12 +23,12 @@ sub read_file {
 
 sub copy_file {
     my ($src, $dest) = @_;
-    open IN, $src or die "Can't open $src for input";
-    open OUT, '>', $dest or die "Can't open $dest for output";
-    local $/;
-    print OUT <IN>;
-    close OUT;
-    close IN;
+    open my $in, $src or die "Can't open $src for input";
+    open my $out, '>', $dest or die "Can't open $dest for output";
+    my $text = do { local $/; <$in> };
+    print $out $text;
+    close $out;
+    close $in;
     return 1;
 }
 

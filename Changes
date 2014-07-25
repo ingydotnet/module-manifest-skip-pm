@@ -1,4 +1,9 @@
 ---
+version: 0.19
+date:    Fri Jul 25 14:04:56 PDT 2014
+changes:
+- Get rid of "Use of bareword filehandle in open" test warnings.
+---
 version: 0.18
 date:    Thu Jul 24 23:21:33 PDT 2014
 changes:
