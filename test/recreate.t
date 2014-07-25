@@ -1,8 +1,13 @@
-use t::Test;
+use strict;
+use File::Basename;
+use lib dirname(__FILE__);
+use TestModuleManifestSkip;
+
 use Test::More tests => 4;
 # use XXX; use Test::Differences; *is = \&eq_or_diff;
 
-my $dir = 't/dir3';
+my $t = -e 't' ? 't' : 'test';
+my $dir = "$t/dir3";
 my $file = "$dir/MANIFEST.SKIP";
 
 unlink $file;

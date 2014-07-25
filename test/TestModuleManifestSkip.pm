@@ -1,7 +1,8 @@
-package t::Test;
-use strict;
-use warnings;
+use strict; use warnings;
+package TestModuleManifestSkip;
+
 use base 'Exporter';
+
 use Module::Manifest::Skip;
 use Cwd qw[cwd abs_path];
 

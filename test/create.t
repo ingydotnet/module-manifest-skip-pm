@@ -1,7 +1,12 @@
-use t::Test;
+use strict;
+use File::Basename;
+use lib dirname(__FILE__);
+use TestModuleManifestSkip;
+
 use Test::More tests => 2;
 
-my $dir = 't/dir1';
+my $t = -e 't' ? 't' : 'test';
+my $dir = "$t/dir1";
 my $file = "$dir/MANIFEST.SKIP";
 
 unlink $file;
