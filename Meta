@@ -1,7 +1,7 @@
 =meta: 0.0.1
 
 name: Module-Manifest-Skip
-version: 0.21
+version: 0.22
 abstract: MANIFEST.SKIP Manangement for Modules
 homepage: https://metacpan.org/release/Module-Manifest-Skip
 

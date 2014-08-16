@@ -1,11 +1,9 @@
 use strict;
-use File::Basename;
-use lib dirname(__FILE__);
+my $t; use lib ($t = -e 't' ? 't' : 'test');
 use TestModuleManifestSkip;
 
 use Test::More tests => 1;
 
-my $t = -e 't' ? 't' : 'test';
 my $lib = abs_path 'lib';
 my $dir = "$t/dir2";
 my $src = "$dir/skip_file";
