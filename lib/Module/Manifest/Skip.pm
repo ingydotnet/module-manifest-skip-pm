@@ -1,6 +1,6 @@
 use strict; use warnings;
 package Module::Manifest::Skip;
-our $VERSION = '0.22';
+our $VERSION = '0.23';
 
 use Moo;
 
