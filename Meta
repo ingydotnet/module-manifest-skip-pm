@@ -24,3 +24,4 @@ devel:
 requires:
   perl: 5.8.1
   Moo: 0.091013
+  File::ShareDir: 1.114
