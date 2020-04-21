@@ -28,9 +28,6 @@ sub import {
         close MS;
         exit;
     }
-    else {
-        goto &Moo::import;
-    }
 }
 
 sub add {
