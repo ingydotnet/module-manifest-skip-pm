@@ -1,12 +1,12 @@
 =meta: 0.0.2
 
 name: Module-Manifest-Skip
-version: 0.23
+version: 0.24
 abstract: MANIFEST.SKIP Manangement for Modules
 homepage: https://metacpan.org/release/Module-Manifest-Skip
 language: perl
 license: perl
-copyright: 2011-2014
+copyright: 2011-2026
 
 author:
   name: Ingy döt Net

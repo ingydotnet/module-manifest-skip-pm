@@ -1,4 +1,9 @@
 ---
+version: 0.24
+date:    Mon Mar 30 07:35:53 AM PDT 2026
+changes:
+- Adapt to changes in Moo 2.004000
+---
 version: 0.23
 date:    Sat Aug 16 11:40:16 PDT 2014
 changes:
