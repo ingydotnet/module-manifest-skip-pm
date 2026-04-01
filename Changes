@@ -1,3 +1,5 @@
+changes:
+- Require File::ShareDir (rrwo)
 ---
 version: 0.24
 date:    Mon Mar 30 07:35:53 AM PDT 2026
